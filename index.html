@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Índice de Masa Corporal (IMC)</title>
+    <link rel="stylesheet" type="text/css" href="tareas.css">
+</head>
+<body>
+    <h1>Índice de Masa Corporal (IMC)</h1>
+<div><lara class="png"></lara></div>
+    <h1>¿Cómo se calcula?</h2>
+    <p>se calcula utilizando la siguiente fórmula :</p>
+    <pre>IMC = peso (kg) / (altura (m) * altura (m))</pre>
+    <h1>¿Cómo saber si tienes sobrepeso?</h1>
+    <pre>
+    Si su IMC es menos de 18.5, se encuentra dentro del rango de peso insuficiente.
+    Si su IMC es entre 18.5 y 24.9, se encuentra dentro del rango de peso normal o saludable.
+    Si su IMC es entre 25.0 y 29.9, se encuentra dentro del rango de sobrepeso. Si su IMC es 30.0 o superior, 
+    se encuentra dentro del rango de obesidad.</pre>
+
+    <h1>Pasos para calcular el IMC:</h2>
+    <ol>
+        <li>Mide tu peso en kilogramos (kg).</li>
+        <li>Mide tu altura en metros (m).</li>
+        <li>Aplica la fórmula del IMC: IMC = peso / (altura * altura).</li>
+        <li>El resultado es tu IMC, que se expresa en unidades de kg/m².</li>
+    </ol>
+
+    <h2>Interpretación del IMC:</h2>
+    <p>Una vez que tengas tu IMC, puedes interpretarlo en función de las categorías comunes:</p>
+    <ul>
+        <li>Menos de 18.5: Bajo peso</li>
+        <li>18.5 - 24.9: Peso normal</li>
+        <li>25.0 - 29.9: Sobrepeso</li>
+        <li>30.0 o más: Obeso</li>
+    </ul>
+<body class="palo">
+    <h2>Calculadora de IMC</h2>
+    <label for="weight">Peso (kg):</label>
+    <input type="number" id="weight" placeholder="kg">
+    <label for="height">Altura (m):</label>
+    <input type="number" id="height" placeholder="m">
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <p>Tu IMC es: <span id="resultado"></span></p>
+    <p id="categoria"></p>
+
+    <script src="laea.js"></script>
+</body> 
+   
+</div>
+    
+</body>
+</html>
